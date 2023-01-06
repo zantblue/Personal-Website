@@ -1,0 +1,105 @@
+/* ---- Menu Atas ---- */
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.main .head .left img {
+  width: 8rem;
+  border-radius: 50%;
+}
+.main .head {
+  width: 60%;
+  margin: 9rem auto;
+  display: flex;
+}
+.main .head .right h2 {
+  font-size: 2rem;
+  color: black;
+}
+
+.main .head .right {
+  margin-left: 3rem;
+  width: 40%;
+}
+
+.main .head .right .garis {
+  border: 3px solid navy;
+  width: 2rem;
+  background-color: navy;
+  position: relative;
+  top: -1rem;
+}
+
+a.actif {
+  color: rgb(39, 101, 224) !important;
+}
+
+.main .head .right .menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 110%;
+}
+
+/* ------- Isi Page ------ */
+.main .head .right .menu a {
+  text-decoration: none;
+  color: gray;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main .head .right a {
+  text-decoration: none;
+}
+
+.main .judul {
+  margin: 0 10rem;
+  padding: 0rem 7rem;
+}
+
+.main .judul h1 {
+  font-size: 3rem;
+}
+
+.main .judul .item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main .judul .item .left {
+  width: 40%;
+}
+
+.main .judul .item .left img {
+  width: 120%;
+}
+.main .judul .item .right {
+  width: 40%;
+}
+
+.main .judul .item button {
+  background-color: rgb(72, 128, 225);
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  color: aliceblue;
+  font-weight: bold;
+  border: none;
+}
+
+/* ----- garis bawah ------- */
+.main .garis.bawah {
+  border: 1px solid black;
+  width: 60rem;
+  background-color: black;
+  margin: 10rem auto 0rem auto;
+}
+
+.main .build {
+  display: flex;
+  justify-content: space-between;
+  width: 60rem;
+  position: relative;
+  top: -1rem;
+  margin: 0 auto;
+}

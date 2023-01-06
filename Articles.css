@@ -1,0 +1,151 @@
+/* ---- Menu Atas ---- */
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.main .head .left img {
+  width: 8rem;
+  border-radius: 50%;
+}
+.main .head {
+  width: 60%;
+  margin: 9rem auto;
+  display: flex;
+}
+.main .head .right h2 {
+  font-size: 2rem;
+  color: black;
+}
+
+.main .head .right {
+  margin-left: 3rem;
+  width: 40%;
+}
+
+.main .head .right .garis {
+  border: 3px solid navy;
+  width: 2rem;
+  background-color: navy;
+  position: relative;
+  top: -1rem;
+}
+
+.main .head .right .menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 110%;
+}
+
+.main .head .right .menu a {
+  text-decoration: none;
+  color: gray;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main .head .right a {
+  text-decoration: none;
+}
+a.actif {
+  color: rgb(39, 101, 224) !important;
+}
+
+/* ======================================== */
+.judul {
+  display: flex;
+  justify-content: space-between;
+}
+.judul .right {
+  width: 70%;
+}
+.judul .left {
+  width: 30%;
+}
+.judul .left .search input {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  width: 70%;
+  border: 1px solid black;
+}
+.judul .left .search span {
+  position: relative;
+  top: 0.5rem;
+  right: 2.3rem;
+}
+.judul .left .filter .button button {
+  background-color: white;
+  border: 1px solid navy;
+  color: navy;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+hr {
+  border-top: 0.3rem solid grey;
+  border-radius: 0.5rem;
+}
+/* ------- Isi Page ------ */
+.main .judul {
+  margin: 0 10rem;
+  padding: 0rem 7rem;
+}
+.main .judul .item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main .judul .item .left {
+  width: 40%;
+}
+
+.main .judul .item .right {
+  width: 40%;
+}
+
+.main .judul .right h2 {
+  margin-top: 4rem;
+}
+.main .judul .right button {
+  background-color: white;
+  border: 1px solid navy;
+  color: navy;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.main .judul .right h1 {
+  font-size: 2.5rem;
+}
+.main .judul .right h2 {
+  font-size: 2rem;
+}
+
+.main .judul .right p {
+  font-size: 1rem;
+  color: gray;
+}
+
+
+
+
+/* ----- garis bawah ------- */
+.main .garis.bawah {
+  border: 1px solid black;
+  width: 60rem;
+  background-color: black;
+  margin: 10rem auto 0rem auto;
+}
+
+.main .build {
+  display: flex;
+  justify-content: space-between;
+  width: 60rem;
+  position: relative;
+  top: -1rem;
+  margin: 0 auto;
+}
